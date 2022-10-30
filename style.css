@@ -1,0 +1,77 @@
+/* dentro de estilo.css */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&subset=cyrillic');
+.highlight {
+    background-color: #B10F2E;
+ }
+ .tipeo {
+   font-style: italic;
+   display: block;
+   margin: auto;
+   margin-bottom: 20px;
+   padding: 12px 50px;
+   border: none;
+   background-color: #E7E5DF;
+ }
+ .error {
+    background-color: lightcoral;
+    border-color: red;
+    font-style: italic;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 12px 50px;
+    border: none;
+ }
+ body {
+   background-color: #95A78D;
+   font-family: 'Roboto Mono', sans-serif;
+ }
+ #contenedor {
+   background-color: #F6F7EB;
+   width: 70%;
+   max-width: 900px;
+   min-width: 300px;
+   height: 400px;
+   text-align: center;
+   border-radius: 80px;
+   overflow: hidden;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+   0 10px 10px rgba(0,0,0,0.22);
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+ #instruccion {
+
+ }
+ button {
+   font-size: 15px;
+	font-weight: bold;
+	padding: 12px 45px;
+	border-radius: 8px;
+	background-color: #95A78D;
+	border: 1px solid #95A78D;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+   0 10px 10px rgba(0,0,0,0.22);
+
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: transform 20ms ease-in;
+ }
+ button:active {
+	transform: scale(0.95);
+}
+#inst {
+   text-align: center;
+   margin-left: 22%;
+   width: 500px;
+   height: 60px;
+   border-radius: 80px;
+   background-color: #95A78D;
+   top: 50%;
+   left: 50%;
+   font-size: 14px;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+   0 10px 10px rgba(0,0,0,0.22);
+}
